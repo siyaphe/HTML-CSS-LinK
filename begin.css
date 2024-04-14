@@ -1,5 +1,5 @@
 /* vertical navigation */
-body {
+/* body {
   margin: 0;
   padding: 0;
 }
@@ -17,15 +17,50 @@ ul {
   padding: 0;
 }
 
+
 a {
   /* border: 1px solid red; */
-  display: block;
+  /* display: block;
   padding: 1rem;
   text-decoration: none;
   color: #2c3e57;
   font-weight: bold;
   border-bottom: 1px solid #666;
 }
+a:hover {
+  background-color: #2c3e57;
+  color: #efac2f;
+} */
+ /* */ 
+
+/*  horizontal Navigation  */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: orange;
+  border-bottom: 1px solid #666;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin-right: -8px;
+}
+a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #2c3e57;
+  font-weight: bold;
+}
+
 a:hover {
   background-color: #2c3e57;
   color: #efac2f;
